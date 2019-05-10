@@ -1,0 +1,19 @@
+{
+  "name": "node-googlesheet-app",
+  "version": "1.0.0",
+  "description": "Dynamic Nodejs app to do CRUD operations in Google Sheets",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehul Chaturvedi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "google-auth-library": "^4.0.0",
+    "googleapis": "^39.2.0"
+  }
+}
