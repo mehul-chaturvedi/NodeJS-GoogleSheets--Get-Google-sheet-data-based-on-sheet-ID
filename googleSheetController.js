@@ -16,13 +16,6 @@ router.get('getdata/:id', (req, res)=>{
 
 });
 
-router.put('writedata/:id', (req, res)=>{
-    let gID = req.params.id;
-
-    authentication.authenticate().then((auth=>{
-        appendData(auth, gID);
-    }))
-})
 
 function getData(auth, gID) {
     var sheets = google.sheets('v4');
